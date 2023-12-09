@@ -11,6 +11,8 @@ function showDefaultTimer () {
 
 showDefaultTimer();
 
+
+
 document.getElementById("pomodoro").addEventListener("click", function() {
     hideAll();
     pomodoro.style.display = "block"
@@ -23,8 +25,13 @@ document.getElementById("shortBreak").addEventListener("click", function() {
     currentTimer = short
 });
 
-document.getElementById("long-break").addEventListener("click", function () {
+document.getElementById("longBreak").addEventListener("click", function () {
     hideAll();
     long.style.display = "block"
     currentTimer = long
 });
+
+function hideAll() {
+    let timers = document.querySelectorAll(".timer-display");
+    timers.forEach(timer => timer.style.display = "none")
+};

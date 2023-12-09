@@ -1,13 +1,33 @@
+body {
+    background-image: url(https://e0.pxfuel.com/wallpapers/163/171/desktop-wallpaper-cr-on-ig-hello-kitty-hello-kitty-iphone-hello-kitty-cute-hello-kitty-laptop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px ;
+}
+
 .button-container {
     justify-content: center;
     display: flex;
-    margin-top: 50px;
-    margin: 20px;
+    margin-top: 85px;
 }
 
 .button {
    border: none;
-   border-radius: 5 px;
-   padding: 10px 20px;
+   border-radius: 5px;
+   padding: 10px 10px;
    margin: 10px;
+   background-color: #fecfe3;
+   color: white;
+   
+}
+
+#timerMessage {
+    color: white;
+    display: none;
+    padding: .5em;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 1em;   
+
 }

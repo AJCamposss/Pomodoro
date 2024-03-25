@@ -1,9 +1,10 @@
 body {
-    background-image: url(https://e0.pxfuel.com/wallpapers/163/171/desktop-wallpaper-cr-on-ig-hello-kitty-hello-kitty-iphone-hello-kitty-cute-hello-kitty-laptop.jpg);
+    background-image: url("sanrio.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 500px ;
+    width: 100%;
+    ;
 }
 
 .button-container {
@@ -36,12 +37,6 @@ body {
     font-weight: bold;
     margin-top: 20px;
     color: white;
-    margin: center;
+    
 }
 
-.timer { /* Delete this later, code does not work */
-    display: inline-block;
-    padding: 10px;
-    width: 600px;
-    box-sizing: border-box;
-  }
